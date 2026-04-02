@@ -28,7 +28,7 @@ function App() {
     if (error) {
       console.error("Error fetching:", error.message);
     } else {
-      console.log("Data yang didapat:", data); // Cek di Console (F12)
+      console.log("Data yang didapat:", data);
       setAlumni(data);
     }
   };
